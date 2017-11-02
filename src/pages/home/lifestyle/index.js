@@ -4,7 +4,7 @@ class Lifestyle extends Component{
   render(){
     return(
 
-      <div className="jumbotron">
+      <div className="section2">
         <h1 className="display-3">Hello, world!</h1>
         <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
         <hr className="my-2" />
