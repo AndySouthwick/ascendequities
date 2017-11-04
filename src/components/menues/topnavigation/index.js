@@ -54,7 +54,7 @@ class TopNavigation extends Component {
         <div className={`${this.state.menubg}  d-flex align-items-center`}>
         <ul className="d-flex  justify-content-around">
           <li><a href="http://somewhere">Our Story</a></li>
-          <li><a href="http://somewhere">Trading University</a></li>
+          <li><a href="https://secureonlinedaytradinguniversity.com/login/" target="_blank">Trading University</a></li>
           <li><a href="http://somewhere"><img src={require("../../../images/AscendEquitiesLogo.png")} alt=""/></a></li>
           <li><a href="http://somewhere">Contact</a></li>
           <li><a href="http://somewhere">Our Students</a></li>

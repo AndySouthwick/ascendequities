@@ -114,11 +114,11 @@
         height: 200%;
         background-color: rgba(64, 64, 64, .93);
     }
-    .topnav{
+    .topnav, .addmenubg{
         position: fixed;
        display: none;
     }
-    .topnav ul li {
+    .topnav ul li, .addmenubg ul li {
         display: none;
 
     }
