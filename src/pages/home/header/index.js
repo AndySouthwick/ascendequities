@@ -1,11 +1,14 @@
 import React, {Component} from 'react'
 import './header.css'
 
+
+
 class Header extends Component{
+
   render(){
     return(
 
-        <div className="header d-flex flex-column">
+        <div className="header d-flex flex-column" >
           <div className="header-top">
             <p className="d-flex justify-content-center text-center ">
               LEARN ABOUT OUR<br/> AWARD WINNING INDICATORS

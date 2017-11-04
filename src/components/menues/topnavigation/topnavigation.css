@@ -1,26 +1,70 @@
 
+@keyframes menubganimate {
+    0%   {
+        background-color: rgba(41, 43, 44, .1);
+
+    }
+    100% { background-color: rgba(41, 43, 44, .8);
+       }
+}
+
+@keyframes menuHover {
+    0%   {
+      font-size: 16px;
+
+    }
+    100%{
+        font-size: 20px;
+    }
+
+}
+
+@keyframes menuHoverOut {
+    0%   {
+        font-size: 20px;
+
+    }
+    100%{
+        font-size: 16px;
+    }
+
+}
 
 @media (min-width: 769px){
+
+    .topnav li a:hover, .addmenubg li a:hover{
+        animation: menuHover .5s forwards;
+        text-decoration: none;    }
+
+    .addmenubg{
+        animation: menubganimate 2s forwards;
+        position: fixed;
+        height: 115px;
+        width: 100%;
+        padding-top: 3em;
+    }
     .topnav{
         position: fixed;
         height: 120px;
         width: 100%;
         padding-top: 3em;
     }
-    .topnav ul{
+    .topnav ul, .addmenubg ul{
         list-style: none;
         width: 100%;
     }
-    .topnav ul li a{
+    .topnav ul li a, .addmenubg ul li a{
+        animation: menuHoverOut 1s;
         color:#ffffff;
     }
-    .topnav ul li:nth-child(3){
+    .topnav ul li:nth-child(3), .addmenubg ul li:nth-child(3){
         margin-top: -1em;
         margin-left: -5em;
     }
     .mobilenav{
         display: none;
     }
+
 }
 
 @media only screen and (max-width: 769px){

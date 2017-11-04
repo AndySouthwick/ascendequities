@@ -1,0 +1,21 @@
+#contact{
+    color: #282828;
+}
+.toprow{
+    margin-top: 7em;
+}
+.shift-right{
+    padding-left: 3em;
+}
+.header2{
+    background: url(../../images/contactbg.png) no-repeat center center;
+    top: 0;
+    left: 0;
+    max-width: 4000px;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-top: 1em;
+    color: white;
+    font-size: 24px;
+}
