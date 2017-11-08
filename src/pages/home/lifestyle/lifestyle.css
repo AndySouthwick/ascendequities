@@ -1,0 +1,53 @@
+.section2 {
+   text-align: center;
+    padding: 64px 15em 0 15em;
+}
+.section2 h1{
+    font-size: 64PX;
+}
+.card-section .card{
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    min-width: 350px;
+    display:flex;
+    z-index: 0;
+    margin-bottom: 3em;
+
+}
+.card-title{
+    margin-top: 1em;
+    font-size: 24px;
+}
+.card-subtitle{
+    margin-top: 15px;
+}
+.card{
+color: #1d1e1f;
+    border-radius: 5px !important;
+}
+
+.btn.pill{
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: 2px;
+    background-color: #4A90E2;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    height: 3em;
+    max-width: 250px;
+    align-self: center;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+#studentstestimonials{
+    display: flex;
+    flex-direction: row;
+}
+
+#studentstestimonials div {
+    margin: 3em;
+    width: 250px;
+}

@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import './header.css'
+import HeroModal from './../../../components/modal/heromodal'
 
 
 
@@ -17,11 +18,8 @@ class Header extends Component{
               WATCH AN OVERVIEW
             </h1>
           </div>
-
           <div className="d-flex justify-content-center text-center ">
-            <button className=" btn btn-lg  white-ghost-button">
-              Click Now
-            </button>
+            <HeroModal/>
           </div>
 
 
