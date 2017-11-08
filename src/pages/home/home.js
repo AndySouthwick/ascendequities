@@ -2,8 +2,7 @@ import React, {Component} from 'react'
 import Header from './header'
 import Lifestyle from './lifestyle'
 import TopNavigation from './../../components/menues/topnavigation'
-import Scroll from './../../components/scroll'
-
+import Footer from './../../components/footer/footer'
 class Home extends Component {
   render(){
     return(
@@ -11,6 +10,7 @@ class Home extends Component {
       <TopNavigation/>
       <Header/>
       <Lifestyle/>
+       <Footer/>
      </div>
     )
   }
