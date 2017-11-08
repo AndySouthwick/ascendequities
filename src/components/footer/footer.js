@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import './footer.css'
+import {Icon} from 'react-fa'
 
 class Footer extends Component {
   render(){
@@ -26,6 +27,11 @@ class Footer extends Component {
           <p><a href="">About</a></p>
           <p><a href="">Office</a></p>
         </div>
+        <div>
+          <Icon name="facebook" size="4x"/>
+          <Icon name="twitter" size="4x"/>
+          <Icon name="youtube" size="4x"/>
+      </div>
       </div>
     )
   }

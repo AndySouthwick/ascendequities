@@ -18,6 +18,7 @@
     "react-document-meta": "^2.1.2",
     "react-dom": "^15.6.1",
     "react-expand-text": "^1.0.0",
+    "react-fa": "^5.0.0",
     "react-fontawesome": "^1.6.1",
     "react-helmet": "^5.2.0",
     "react-read-more": "^1.0.0",
