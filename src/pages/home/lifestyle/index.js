@@ -14,7 +14,7 @@ class Lifestyle extends Component{
           <h1>
             “Everything we do we believe
             people want to live life on their  own terms”
-          </h1>
+      </h1>
         <span className="signature">
           -Ascend Equities
         </span>
@@ -31,7 +31,6 @@ class Lifestyle extends Component{
               <CardImg top width="100%" src={require('../../../images/cardimage2.png')} alt="Card image cap" />
               <CardTitle>One on One <br/> Mentoring</CardTitle>
               <Button className="pill">Learn More</Button>
-
             </Card>
             <Card>
               <CardImg top width="100%" src={require('../../../images/cardimage3.png')} alt="Card image cap" />

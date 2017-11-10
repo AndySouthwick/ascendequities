@@ -50,7 +50,7 @@ class TopNavigation extends Component {
   }
   render(){
     return(
-      <div>
+      <nav>
         <div className={`${this.state.menubg}  d-flex align-items-center`}>
         <ul className="d-flex  justify-content-around">
           <li><a href="http://somewhere">Our Story</a></li>
@@ -75,7 +75,7 @@ class TopNavigation extends Component {
           </div>
 
         </div>
-      </div>
+      </nav>
     )
   }
 }
