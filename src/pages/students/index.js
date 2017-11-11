@@ -15,14 +15,14 @@ class Students extends Component{
       )
     }else
 
+      console.log(this.props.data)
     return(
       <div>
         <TopNavigation/>
-
         <div className="students">
         {this.props.data.allStudentsblurbses.map((blurbs) =>
-          <div key={blurbs.id} className="d-flex singleblurb">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf2u0RWmYALKJ431XNoTKjzu77ERLBIvXKlOEA-Q3DPo2h2rCB" alt=""/>
+          <div key={blurbs.id} className="singleblurb">
+            <img src={`${blurbs.img}`} alt=""/>
               <p>
                 <h2>{blurbs.name}</h2>
             {blurbs.blurb}</p>
@@ -41,6 +41,7 @@ query {
     id
     name
     blurb
+    img
   }
 }
 `
