@@ -22,6 +22,10 @@
     width: 150px;
     height: 150px;
 }
+.imgContainer{
+    width: 150px;
+    height: 150px;
+}
 
 @media (max-width: 990px){
     .singleblurb img {

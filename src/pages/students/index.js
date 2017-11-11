@@ -22,7 +22,7 @@ class Students extends Component{
         <div className="students">
         {this.props.data.allStudentsblurbses.map((blurbs) =>
           <div key={blurbs.id} className="singleblurb">
-            <img src={`${blurbs.img}`} alt=""/>
+           <div className="imgContainer"> <img src={`${blurbs.img}`} alt=""/></div>
               <p>
                 <h2>{blurbs.name}</h2>
             {blurbs.blurb}</p>
