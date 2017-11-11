@@ -21,6 +21,23 @@ class Contact extends Component {
               <div className="col-6">Last Name:
                 <input type="text" className="form-control"/>
               </div>
+
+                <div className="col-12">Email:
+                  <input type="text" className="form-control"/>
+                </div>
+                <div className="col-12">Phone:
+                  <input type="text" className="form-control"/>
+                </div>
+                <div className="col-12">Message:
+                  <input type="text" className="form-control"/>
+                </div>
+
+                <div className="col-3">
+                  <button className="btn btn-lg btn-danger formbutton" type="submit" value="Submit" >
+                    Submit
+                  </button>
+                </div>
+
               </div>
               </form>
             </div>

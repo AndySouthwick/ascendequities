@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import {createNewBLurb} from './service'
 import {graphql}  from 'react-apollo'
-import axios from 'axios'
 
 
 class Form extends Component{
@@ -21,9 +20,6 @@ class Form extends Component{
         name: this.state.name,
         blurb: this.state.blurb,
       }
-    }).then((res) => {
-      let fileData = this.state.file
-     return axios.post('https://api.graph.cool/file/v1/cj9rwjvth6uo90124ivfyd05f', { file: fileData })
     })
   }
 

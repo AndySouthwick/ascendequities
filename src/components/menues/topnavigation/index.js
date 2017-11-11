@@ -26,6 +26,12 @@ class TopNavigation extends Component {
   componentDidMount () {
     console.log('componentWillMount');
     window.addEventListener('scroll', this.handleScroll);
+    console.log(window.location.pathname)
+    if(window.location.pathname !== '/'){
+      this.setState({
+        menubg: 'addmenubg'
+      })
+    }
   }
 
   componentWillUnmount () {
@@ -49,15 +55,17 @@ class TopNavigation extends Component {
     })
   }
   render(){
+
+
     return(
       <nav>
         <div className={`${this.state.menubg}  d-flex align-items-center`}>
         <ul className="d-flex  justify-content-around">
-          <li><a href="http://somewhere">Our Story</a></li>
+          <li><a href="/story">Our Story</a></li>
           <li><a href="https://secureonlinedaytradinguniversity.com/login/" target="_blank">Trading University</a></li>
-          <li><a href="http://somewhere"><img src={require("../../../images/AscendEquitiesLogo.png")} alt=""/></a></li>
-          <li><a href="http://somewhere">Contact</a></li>
-          <li><a href="http://somewhere">Our Students</a></li>
+          <li><a href="/"><img src={require("../../../images/AscendEquitiesLogo.png")} alt=""/></a></li>
+          <li><a href="/contact">Contact</a></li>
+          <li><a href="/Students">Our Students</a></li>
         </ul>
       </div>
 
@@ -66,11 +74,11 @@ class TopNavigation extends Component {
           <div className={this.state.mobilenavshowhide}>
             <img src={require("../../../images/close.png")} alt="" className="closemenu" onClick={this.closemenu} />
             <ul className="mobilenavslideout">
-              <a href="http://somewhere"><img src={require("../../../images/smalllogo.png")} alt=""/></a>
-              <li><a href="http://somewhere">Our Story</a></li><hr/>
-              <li><a href="http://somewhere">Trading University</a></li><hr/>
-              <li><a href="http://somewhere">Contact</a></li><hr/>
-              <li><a href="http://somewhere">Our Students</a></li><hr/>
+              <a href="/"><img src={require("../../../images/smalllogo.png")} alt=""/></a>
+              <li><a href="/story">Our Story</a></li><hr/>
+              <li><a href="https://secureonlinedaytradinguniversity.com/login/">Trading University</a></li><hr/>
+              <li><a href="/contact">Contact</a></li><hr/>
+              <li><a href="/Students">Our Students</a></li><hr/>
             </ul>
           </div>
 

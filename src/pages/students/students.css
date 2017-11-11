@@ -1,0 +1,19 @@
+.students{
+    background: #ffffff;
+    top: 0;
+    left: 0;
+    max-width: 4000px;
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-top: 7em;
+    color: #000000;
+    font-size: 24px;
+}
+.students .singleblurb{
+    padding: 2em 5em 2em 5em;
+}
+
+.singleblurb p{
+    margin-left: 5em;
+}
