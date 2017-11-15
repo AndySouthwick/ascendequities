@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import './topnavigation.css'
+import {Link} from 'react-router-dom'
 
 
 class TopNavigation extends Component {
@@ -61,11 +62,11 @@ class TopNavigation extends Component {
       <nav>
         <div className={`${this.state.menubg}  d-flex align-items-center`}>
         <ul className="d-flex  justify-content-around">
-          <li><a href="/story">Our Story</a></li>
-          <li><a href="https://secureonlinedaytradinguniversity.com/login/" target="_blank">Trading University</a></li>
-          <li><a href="/"><img src={require("../../../images/AscendEquitiesLogo.png")} alt=""/></a></li>
-          <li><a href="/contact">Contact</a></li>
-          <li><a href="/Students">Our Students</a></li>
+          <li><Link to="/story">Our Story</Link></li>
+          <li><Link to="https://secureonlinedaytradinguniversity.com/login/" target="_blank">Trading University</Link></li>
+          <li><Link to="/"><img src={require("../../../images/AscendEquitiesLogo.png")} alt=""/></a></li>
+          <li><Link to="/contact">Contact</a></li>
+          <li><Link to="/Students">Our Students</a></li>
         </ul>
       </div>
 
@@ -75,10 +76,10 @@ class TopNavigation extends Component {
             <img src={require("../../../images/close.png")} alt="" className="closemenu" onClick={this.closemenu} />
             <ul className="mobilenavslideout">
               <a href="/"><img src={require("../../../images/smalllogo.png")} alt=""/></a>
-              <li><a href="/story">Our Story</a></li><hr/>
-              <li><a href="https://secureonlinedaytradinguniversity.com/login/">Trading University</a></li><hr/>
-              <li><a href="/contact">Contact</a></li><hr/>
-              <li><a href="/Students">Our Students</a></li><hr/>
+              <li><Link to="/story">Our Story</a></li><hr/>
+              <li><Link to="https://secureonlinedaytradinguniversity.com/login/">Trading University</a></li><hr/>
+              <li><Link to="/contact">Contact</a></li><hr/>
+              <li><Link to="/Students">Our Students</a></li><hr/>
             </ul>
           </div>
 
