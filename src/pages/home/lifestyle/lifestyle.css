@@ -13,6 +13,7 @@
 .white-bg{
     background-color: rgba(225, 225, 225, 0.6);
     text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+    padding-bottom: 5em;
 }
 
 .section2 h1{
@@ -44,27 +45,21 @@
 .section2 .row:nth-child(2){
     min-height: 600px;
 }
-
-#studentstestimonials{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-}
-
 #studentstestimonials div {
     margin: 3em;
     width: 250px;
 }
-@media(max-width: 480px){
+@media(max-width: 990px){
     .section2{
        padding: 0;
     }
-    .card-section{
-        flex-direction: column;
-        margin: 0;
-    }
     .section2 .row:nth-child(2){
-        min-height: 450px;
+        min-height: 900px;
     }
+    .section2 .row:nth-child(3){
+        min-height: 400px;
+    }
+.white-bg{
+    padding-bottom: 0;
+}
 }
