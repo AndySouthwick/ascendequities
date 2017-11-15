@@ -11,18 +11,7 @@
      font-size: 24px;
  }
 
-.section2{
 
-    background: url(../../../images/bg2.png) no-repeat center center;
-    top: 0;
-    left: 0;
-    max-width: 3000px;
-    min-height: 1750px;
-    background-position: center;
-    background-size: cover;
-    color: white;
-    font-size: 24px;
-}
 @media (max-width: 1025px){
     .section2{
         min-height: 1000px;

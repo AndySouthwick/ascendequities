@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
-import { Card, CardImg, CardText,
-  CardTitle, CardSubtitle, Button } from 'reactstrap';
+import {Row, Container, Col, Button} from 'reactstrap';
 import './lifestyle.css'
 class Lifestyle extends Component{
 
@@ -11,35 +10,28 @@ class Lifestyle extends Component{
     return(
 
       <div className="section2">
-          <h1>
-            “Everything we do we believe
-            people want to live life on their  own terms”
-      </h1>
-        <span className="signature">
+        <Container fluid className="white-bg">
+          <Row>
+            <Col>
+              <h1>
+                “Everything we do we believe
+                people want to live life on their  own terms”
+              </h1>
+              <span className="signature">
           -Ascend Equities
         </span>
-
-          <div className="card-section d-flex  justify-content-lg-around">
-            <Card>
-              <CardImg top width="100%" src={require('../../../images/cardimage1.png')} alt="Card image cap" />
-
-                <CardTitle>Award Winning <br/>Indicators</CardTitle>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={{size:12}} md={{size:12}} lg={{size: 8}}  >
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Mq3sqHBhzwc" frameborder="0" allowfullscreen></iframe>
+            </Col>
+            <Col sm="4">
+              <h2>some content for this</h2>
               <Button className="pill">Learn More</Button>
-
-            </Card>
-            <Card>
-              <CardImg top width="100%" src={require('../../../images/cardimage2.png')} alt="Card image cap" />
-              <CardTitle>One on One <br/> Mentoring</CardTitle>
-              <Button className="pill">Learn More</Button>
-            </Card>
-            <Card>
-              <CardImg top width="100%" src={require('../../../images/cardimage3.png')} alt="Card image cap" />
-              <CardTitle>Trade Our Money</CardTitle>
-              <CardSubtitle>Keep 60-80% of the profit</CardSubtitle>
-              <Button className="pill">Learn More</Button>
-            </Card>
-          </div>
-
+            </Col>
+          </Row>
+        </Container>
         <h1>
           See What Some Of Our Students Have To Say
         </h1>

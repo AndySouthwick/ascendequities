@@ -6,3 +6,10 @@
     height: 350px;
     padding: 5em;
 }
+@media(max-width: 990px) {
+    #footer{
+        text-align: center;
+        height:100%;
+        flex-direction: column;
+    }
+}

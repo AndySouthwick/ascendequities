@@ -40,8 +40,9 @@
     .singleblurb p{
         margin-left: 0;
     }
-    .students .singleblurb{
-        padding: 2em 1em 2em 1em;
-        display: flex;
-    }
+   #studentstestimonials{
+       flex-direction: column;
+   }
+
 }
+

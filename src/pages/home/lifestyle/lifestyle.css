@@ -1,32 +1,32 @@
+
 .section2 {
    text-align: center;
-    padding: 64px 15em 0 15em;
+    background: url(../../../images/bg2.png) no-repeat center center;
+    top: 0;
+    left: 0;
+    max-width: 3000px;
+    min-height: 1750px;
+    background-size: cover;
+    color: white;
+    font-size: 24px;
 }
+.white-bg{
+    background-color: rgba(225, 225, 225, 0.6);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+}
+
 .section2 h1{
     font-size: 64PX;
 }
-.card-section .card{
-    margin-top: 2em;
-    margin-left: 2em;
-    margin-right: 2em;
-    min-width: 350px;
-    display:flex;
-    z-index: 0;
-    margin-bottom: 3em;
 
-}
-.card-title{
-    margin-top: 1em;
-    font-size: 24px;
-}
-.card-subtitle{
-    margin-top: 15px;
-}
-.card{
-color: #1d1e1f;
-    border-radius: 5px !important;
+.section2 .col{
+    padding-left: 0;
+    padding-right: 0;
 }
 
+.section2 .row{
+    padding: 2em 0 0 0;
+}
 .btn.pill{
     text-align: center;
     color: #ffffff;
@@ -41,13 +41,30 @@ color: #1d1e1f;
     margin-top: 1em;
     margin-bottom: 3em;
 }
+.section2 .row:nth-child(2){
+    min-height: 600px;
+}
 
 #studentstestimonials{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+
 }
 
 #studentstestimonials div {
     margin: 3em;
     width: 250px;
+}
+@media(max-width: 480px){
+    .section2{
+       padding: 0;
+    }
+    .card-section{
+        flex-direction: column;
+        margin: 0;
+    }
+    .section2 .row:nth-child(2){
+        min-height: 450px;
+    }
 }
