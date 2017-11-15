@@ -62,10 +62,11 @@ class TopNavigation extends Component {
       <nav>
         <div className={`${this.state.menubg}  d-flex align-items-center`}>
         <ul className="d-flex  justify-content-around">
+          <li><Link to="/story">Our Story</Link></li>
           <li><Link to="https://secureonlinedaytradinguniversity.com/login/" target="_blank">Trading University</Link></li>
-          <li><Link to="/"><img src={require("../../../images/AscendEquitiesLogo.png")} alt=""/></a></li>
-          <li><Link to="/contact">Contact</a></li>
-          <li><Link to="/Students">Our Students</a></li>
+          <li><Link to="/"><img src={require("../../../images/AscendEquitiesLogo.png")} alt=""/></Link></li>
+          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/Students">Our Students</Link></li>
         </ul>
       </div>
 
@@ -74,10 +75,11 @@ class TopNavigation extends Component {
           <div className={this.state.mobilenavshowhide}>
             <img src={require("../../../images/close.png")} alt="" className="closemenu" onClick={this.closemenu} />
             <ul className="mobilenavslideout">
-              <a href="/"><img src={require("../../../images/smalllogo.png")} alt=""/></a>
-              <li><Link to="https://secureonlinedaytradinguniversity.com/login/">Trading University</a></li><hr/>
-              <li><Link to="/contact">Contact</a></li><hr/>
-              <li><Link to="/Students">Our Students</a></li><hr/>
+              <Link to="/"><img src={require("../../../images/smalllogo.png")} alt=""/></Link>
+              <li><Link to="/story">Our Story</Link></li><hr/>
+              <li><Link to="https://secureonlinedaytradinguniversity.com/login/">Trading University</Link></li><hr/>
+              <li><Link to="/contact">Contact</Link></li><hr/>
+              <li><Link to="/students">Our Students</Link></li><hr/>
             </ul>
           </div>
 
