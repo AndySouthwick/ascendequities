@@ -12,7 +12,7 @@ class Lifestyle extends Component{
       <div className="section2">
         <Container fluid className="white-bg">
           <Row>
-            <Col>
+            <Col xs="12" sm="12">
               <h1>
                 “Everything we do we believe
                 people want to live life on their  own terms”
@@ -23,10 +23,10 @@ class Lifestyle extends Component{
             </Col>
           </Row>
           <Row>
-            <Col xs={{size:12}} md={{size:12}} lg={{size: 6}}  >
+            <Col xs={{size:12}} sm="12" md={{size:12}} lg={{size: 6}}  >
                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/Mq3sqHBhzwc" frameborder="0" allowfullscreen></iframe>
             </Col>
-            <Col sm="4" md={{size:12}}lg={{size: 6}}>
+            <Col xs="12" sm="12" md={{size:12}} lg={{size: 6}}>
               <h1>some content for this</h1>
               <Button className="pill">Learn More</Button>
             </Col>
