@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="26a9179e-ebbb-4c34-b0f4-44eee8cb8a25" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/home/lifestyle/lifestyle.css" afterPath="$PROJECT_DIR$/src/pages/home/lifestyle/lifestyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/menues/topnavigation/topnavigation.css" afterPath="$PROJECT_DIR$/src/components/menues/topnavigation/topnavigation.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/students/students.css" afterPath="$PROJECT_DIR$/src/pages/students/students.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lifestyle.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="lifestyle.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/home/lifestyle/lifestyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="62" column="21" lean-forward="false" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+            <state relative-caret-position="1005">
+              <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -51,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="students.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="students.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/students/students.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="650">
+              <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -74,8 +75,8 @@
       <file leaf-file-name="topnavigation.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/menues/topnavigation/topnavigation.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="-13">
+              <caret line="88" column="21" lean-forward="false" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -129,7 +130,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/components/scroll.js" />
         <option value="$PROJECT_DIR$/src/components/modal/heromodal.js" />
-        <option value="$PROJECT_DIR$/src/components/menues/topnavigation/topnavigation.css" />
         <option value="$PROJECT_DIR$/src/pages/home/header/index.js" />
         <option value="$PROJECT_DIR$/src/pages/home/home.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
@@ -149,11 +149,12 @@
         <option value="$PROJECT_DIR$/src/pages/students/index.js" />
         <option value="$PROJECT_DIR$/src/pages/home/header/header.css" />
         <option value="$PROJECT_DIR$/src/components/footer/footer.css" />
-        <option value="$PROJECT_DIR$/src/pages/students/students.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/menues/topnavigation/index.js" />
         <option value="$PROJECT_DIR$/src/pages/home/lifestyle/index.js" />
         <option value="$PROJECT_DIR$/src/pages/home/lifestyle/lifestyle.css" />
+        <option value="$PROJECT_DIR$/src/components/menues/topnavigation/topnavigation.css" />
+        <option value="$PROJECT_DIR$/src/pages/students/students.css" />
       </list>
     </option>
   </component>
@@ -238,29 +239,22 @@
               <item name="acendequities" type="b2602c69:ProjectViewProjectNode" />
               <item name="acendequities" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="acendequities" type="b2602c69:ProjectViewProjectNode" />
               <item name="acendequities" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="menues" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="acendequities" type="b2602c69:ProjectViewProjectNode" />
               <item name="acendequities" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-              <item name="lifestyle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="acendequities" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acendequities" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="students" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="menues" type="462c0819:PsiDirectoryNode" />
+              <item name="topnavigation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -314,12 +308,12 @@
       <workItem from="1509635648740" duration="32000" />
       <workItem from="1509642162924" duration="30990000" />
       <workItem from="1510173056579" duration="26157000" />
-      <workItem from="1510628796537" duration="11599000" />
+      <workItem from="1510628796537" duration="12251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89054000" />
+    <option name="totallyTimeSpent" value="89706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -748,14 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/menues/topnavigation/topnavigation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/home/lifestyle/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -763,14 +749,6 @@
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/students/students.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,8 +764,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/home/lifestyle/lifestyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="62" column="21" lean-forward="false" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+        <state relative-caret-position="1005">
+          <caret line="67" column="1" lean-forward="true" selection-start-line="67" selection-start-column="1" selection-end-line="67" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/menues/topnavigation/topnavigation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="88" column="21" lean-forward="false" selection-start-line="88" selection-start-column="21" selection-end-line="88" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/students/students.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="52" column="16" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
           <folding />
         </state>
       </provider>

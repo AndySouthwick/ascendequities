@@ -49,6 +49,9 @@
        flex-direction: column;
        align-items: center;
    }
+   #studentstestimonials div{
+       margin: 0;
+   }
 
 }
 
