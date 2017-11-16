@@ -54,16 +54,13 @@
 }
 @media(max-width: 990px){
     .white-bg h1{
-        margin:0 0 0 0;
+        margin:0;
     }
     .section2{
        padding: 0;
     }
     .section2 .row:nth-child(2){
-        min-height: 900px;
-    }
-    .section2 .row:nth-child(3){
-        min-height: 400px;
+        min-height: 500px;
     }
 .white-bg{
     padding-bottom: 0;
