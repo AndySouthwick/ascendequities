@@ -1,10 +1,12 @@
 import React, {Component} from 'react'
 import TopNavigation from'./../../components/menues/topnavigation'
 import './contact.css'
+import Footer from './../../components/footer/footer'
 
 class Contact extends Component {
   render(){
     return(
+      <div>
       <div className="full-height header2" id="contact">
         <TopNavigation/>
         <div className="container-fluid ">
@@ -50,6 +52,9 @@ class Contact extends Component {
             </div>
           </div>
         </div>
+      </div>
+
+        <Footer/>
       </div>
     )
   }

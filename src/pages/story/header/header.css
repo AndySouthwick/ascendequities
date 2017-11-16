@@ -1,0 +1,16 @@
+.our-story header{
+    background: url(../../../images/ourstory.png) no-repeat center;
+    top: 0;
+    left: 0;
+    max-width: 4000px;
+    min-height: 100%;
+    background-size: cover;
+    color: white;
+    font-size: 24px;
+}
+.our-story .header-top h1{
+     margin-left: 1em;
+ }
+.our-story .header-top p{
+    margin-left: 5em;
+}
