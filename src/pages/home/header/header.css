@@ -33,7 +33,12 @@ margin-top: 7em;
     margin-bottom: 5em;
 }
 
-
+.modal-dialog{
+    max-width: 800px!important;
+}
+.modal-content{
+    background-color: rgba(255, 255, 255, .65)!important;
+}
 @media (max-width: 480px){
     .header-top{
         margin-top: 1.5em;
