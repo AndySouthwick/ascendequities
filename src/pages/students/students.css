@@ -38,12 +38,14 @@
         height: 150px;
     }
     .students .singleblurb{
-        padding: 2em 5em 2em 5em;
+        padding: 1em 5em 2em 2em;
         display: flex;
         flex-direction: column;
+
     }
     .singleblurb p{
         margin-left: 0;
+        min-width: 250px;
     }
    #studentstestimonials{
        flex-direction: column;
@@ -51,6 +53,10 @@
    }
    #studentstestimonials div{
        margin: 0;
+   }
+   .students{
+       padding-top: 2em;
+
    }
 
 }

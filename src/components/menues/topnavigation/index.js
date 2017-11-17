@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import './topnavigation.css'
 import {Link} from 'react-router-dom'
+import {Icon} from 'react-fa'
 
 
 class TopNavigation extends Component {
@@ -70,12 +71,16 @@ class TopNavigation extends Component {
         </ul>
       </div>
 
+        <div className="d-flex justify-content-center">
+          <img src={require("../../../images/AscendEquitiesLogo.png")} alt="" className="mobileheader"/>
+        </div>
         <div className="mobilenav">
-          <img src={require("../../../images/hamburger menu.png")} alt="" className="openmenu" onClick={this.openmenu}/>
+
+          <Icon name="bars" size="2x" className="openmenu" onClick={this.openmenu}/>
           <div className={this.state.mobilenavshowhide}>
-            <img src={require("../../../images/close.png")} alt="" className="closemenu" onClick={this.closemenu} />
+            <Icon name="times" size="2x" className="closemenu" onClick={this.closemenu}/>
             <ul className="mobilenavslideout">
-              <Link to="/"><img src={require("../../../images/smalllogo.png")} alt=""/></Link>
+              <Link to="/"><img src={require("../../../images/sheildlogo.png")} alt=""/></Link>
               <li><Link to="/story">Our Story</Link></li><hr/>
               <li><Link to="https://secureonlinedaytradinguniversity.com/login/">Trading University</Link></li><hr/>
               <li><Link to="/contact">Contact</Link></li><hr/>

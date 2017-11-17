@@ -1,6 +1,7 @@
 .topnav, .addmenubg{
     z-index: 999;
 }
+.mobileheader{display: none}
 
 @keyframes menubganimate {
     0%   {
@@ -72,21 +73,30 @@
 
 @media only screen and (max-width: 769px){
 
+    .mobileheader{
+        position: static;
+        display: block;
+        margin-top: 2em;
+    }
+
     .hamburgermenu{
         margin:2em 0 0 2em;
         z-index: 99999;
     }
     .openmenu{
-        margin:2em 0 0 2em;
+        margin:1em 0 0 1em;
     }
     .closemenu{
-        margin:-3em 0 0 15em;
+        position: absolute;
+        top: -31.5px;
+        left: 8em;
     }
 
     .mobilenav{
         position: fixed;
         height: 100%;
         z-index: 9999;
+        margin-top: -90px;
     }
     .mobilenavshow{
         position: fixed;
@@ -102,7 +112,7 @@
     .mobilenav ul{
         line-height: 2em;
         list-style: none;
-        padding-top: 2em;
+        padding-top: 3.5em;
         font-size: 25px;
 
     }
@@ -126,6 +136,9 @@
     .topnav ul li, .addmenubg ul li {
         display: none;
 
+    }
+    .toprow {
+        padding-top: 3em!important;
     }
 
 

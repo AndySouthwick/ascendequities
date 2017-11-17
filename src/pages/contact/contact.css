@@ -20,12 +20,25 @@ padding-top: 7em;
 #message{
     height:150px;
 }
+
+.message-box{
+    text-align: center;
+    padding: 1em;
+    background-color: rgba(216, 216, 216, .49);
+    width: 100%;
+    min-height: 246px;
+    font-size: 36px;
+    font-weight: bold;
+}
 input{
     height: 4em;
 }
 .formbutton{
     margin-top: 2em;
-    border-bottom: 2em;
+    margin-bottom: 2em;
+}
+.center-this{
+    text-align: center;
 }
 @media(max-width: 480px) {
     .shift-right{

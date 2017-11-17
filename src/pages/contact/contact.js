@@ -19,7 +19,7 @@ class Contact extends Component {
 
   handleSubmit = (evt) => {
     evt.preventDefault()
-    axios.post('https://sandbox.andrewsouthwick.com/send_email.php?fname='
+    axios.post('http://andrewsouthwick.com/send_email.php?fname='
       + this.state.fname + '&lname=' + this.state.lname + '&email=' + this.state.email + '&message=' + this.state.message + '&phone=' +  this.state.phone).then(function(response){
       console.log(response.data); // ex.: { user: 'Your User'}
       console.log(response.status); // ex.: 200
@@ -33,8 +33,9 @@ class Contact extends Component {
 
     return(
       <div>
-      <div className="full-height header2" id="contact">
         <TopNavigation/>
+      <div className="full-height header2" id="contact">
+
         <Container fluid>
           <Row className="row toprow shift-right">
 
@@ -84,9 +85,21 @@ class Contact extends Component {
               </div>
               </form>
             </Col>
-            <div className="col-6">
-              test
-            </div>
+            <Col className="center-this">
+              <p className="message-box">
+                Got a question? Just ask us!
+                Our Staff is available to answer
+                any questions you might have!
+              </p>
+              <p>
+                <h3>OFFICE</h3>
+                In Person: 2889 Ashton Blvd Ste #150 Lehi, Utah 84043
+              </p>
+              <p><h3>By Phone:</h3>
+                (775)291-3589</p>
+              <p><h3>Hours:</h3>
+                Monday through Friday, 9:00 am – 5:00 pm MST</p>
+            </Col>
           </Row>
         </Container>
       </div>
