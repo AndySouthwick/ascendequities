@@ -3,7 +3,6 @@ import './header.css'
 import HeroModal from './../../../components/modal/heromodal'
 
 
-
 class Header extends Component{
 
   render(){
