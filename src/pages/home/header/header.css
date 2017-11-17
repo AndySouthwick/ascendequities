@@ -52,7 +52,8 @@ margin-top: 7em;
     max-width: 800px!important;
 }
 .modal-content{
-    background-color: rgba(255, 255, 255, .65)!important;
+    color: white;
+    background-color: rgba(0, 0, 0, .85)!important;
 }
 @media (max-width: 480px){
     .header-top{

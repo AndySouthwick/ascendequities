@@ -26,7 +26,7 @@ class HeroModal extends Component {
           Watch Now
         </button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
-          <ModalHeader toggle={this.toggle}>Watch our Indicators in Action</ModalHeader>
+          <ModalHeader toggle={this.toggle}>Majors and Minors</ModalHeader>
           <ModalBody>
             <div className="d-flex flex-column justify-content-center">
               <div className="video-container">
