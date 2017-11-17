@@ -82,7 +82,7 @@ class TopNavigation extends Component {
             <ul className="mobilenavslideout">
               <Link to="/"><img src={require("../../../images/sheildlogo.png")} alt=""/></Link>
               <li><Link to="/story">Our Story</Link></li><hr/>
-              <li><Link to="https://secureonlinedaytradinguniversity.com/login/">Trading University</Link></li><hr/>
+              <li><a href="https://secureonlinedaytradinguniversity.com/login/">Trading University</a></li><hr/>
               <li><Link to="/contact">Contact</Link></li><hr/>
               <li><Link to="/students">Our Students</Link></li><hr/>
             </ul>
