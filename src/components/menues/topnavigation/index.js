@@ -71,8 +71,8 @@ class TopNavigation extends Component {
         </ul>
       </div>
 
-        <div className="d-flex justify-content-center">
-          <img src={require("../../../images/AscendEquitiesLogo.png")} alt="" className="mobileheader"/>
+        <div className=" mobileheader" >
+          <img src={require("../../../images/AscendEquitiesLogo.png")} alt="" />
         </div>
         <div className="mobilenav">
 

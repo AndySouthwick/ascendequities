@@ -1,7 +1,7 @@
 .topnav, .addmenubg{
     z-index: 999;
 }
-.mobileheader{display: none}
+
 
 @keyframes menubganimate {
     0%   {
@@ -32,6 +32,10 @@
         font-size: 16px;
     }
 
+}
+
+.mobileheader{
+    display: none;
 }
 
 @media (min-width: 769px){
@@ -71,12 +75,17 @@
 
 }
 
-@media only screen and (max-width: 769px){
+@media (max-width: 769px){
+
 
     .mobileheader{
-        position: static;
-        display: block;
-        margin-top: 2em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        z-index: 9999;
+        position: fixed;
+        width: 100%;
+
     }
 
     .hamburgermenu{
@@ -96,7 +105,6 @@
         position: fixed;
         height: 100%;
         z-index: 9999;
-        margin-top: -90px;
     }
     .mobilenavshow{
         position: fixed;
