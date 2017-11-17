@@ -38,7 +38,7 @@
         height: 150px;
     }
     .students .singleblurb{
-        padding: 1em 5em 2em 2em;
+        padding:1em;
         display: flex;
         flex-direction: column;
 
@@ -55,9 +55,22 @@
        margin: 0;
    }
    .students{
-       padding-top: 2em;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       padding-top: 4em;
+       text-align: center;
 
    }
+    .imgContainer{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+
+    }
+    .students .singleblurb{
+        width: 100%;
+    }
 
 }
 
