@@ -23,7 +23,7 @@ class HeroModal extends Component {
 
       <div>
         <button  onClick={this.toggle} className=" btn btn-lg  white-ghost-button" data-toggle="modal" data-target="#exampleModal">
-          Click Now
+          Watch Now
         </button>
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}>Watch our Indicators in Action</ModalHeader>
