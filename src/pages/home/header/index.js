@@ -11,9 +11,11 @@ class Header extends Component{
         <div className="header d-flex flex-column" >
           <div className="header-top">
             <p className="d-flex justify-content-center text-center ">
-            <h1>WATCH OUR<br/> AWARD WINNING INDICATORS</h1>
+              Watch Our<br/>
             </p>
-
+            <h1 className="d-flex justify-content-center text-center ">
+              AWARD WINNING INDICATORS
+            </h1>
           </div>
           <div className="d-flex justify-content-center text-center ">
             <HeroModal/>
