@@ -19,7 +19,7 @@ class Contact extends Component {
 
   handleSubmit = (evt) => {
     evt.preventDefault()
-    axios.post('http://sandbox.andrewsouthwick.com/send_email.php?fname='
+    axios.post('https://sandbox.andrewsouthwick.com/send_email.php?fname='
       + this.state.fname + '&lname=' + this.state.lname + '&email=' + this.state.email + '&message=' + this.state.message + '&phone=' +  this.state.phone).then(function(response){
       console.log(response.data); // ex.: { user: 'Your User'}
       console.log(response.status); // ex.: 200
