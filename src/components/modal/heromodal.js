@@ -28,8 +28,30 @@ class HeroModal extends Component {
         <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
           <ModalHeader toggle={this.toggle}>Watch our Indicators in Action</ModalHeader>
           <ModalBody>
-            <div className="d-flex justify-content-center">
-              <iframe src="https://player.vimeo.com/video/118516418" width="750" height="580" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            <div className="d-flex flex-column justify-content-center">
+              <div className="video-container">
+                <iframe src="https://player.vimeo.com/video/118516418" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+              </div>
+
+
+             <p> It doesn’t get any simpler…
+              This looks pretty complicated…
+              If you’re viewing charting software for the first time, it may appear complex, but it’s actually very simple.
+              Just keep your eyes on the green, red, gray and black jagged lines in the bottom half of the screen.
+               These are your indicators.</p>
+
+             <p> Okay, so what do they indicate?
+               buysell</p>
+
+             <p> When the gray and black pair of lines cross
+              each other and the green and red pair
+              of lines cross each other all at the same
+               time, (double crossover) that’s your</p>
+
+              <p>How do I know whether to buy or sell?
+              A double crossover, at or above the blue line, pointing down, indicates SELL.
+              A double crossover, at or or below the red line, pointing up, indicates BUY.
+              </p>
 
             </div>
           </ModalBody>
