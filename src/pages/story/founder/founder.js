@@ -13,7 +13,7 @@ class Founder extends Component{
         </div>
         <Container>
           <Row>
-            <Col lg={{size:4, offset:1}}>
+            <Col lg={{size:4, offset:1}} className="founder">
               <img src={require('./../../../images/Screen Shot 2017-11-16 at 3.47.00 PM.png')} alt=""className="founder-img"/>
             </Col>
             <Col lg={{size:7}}>
