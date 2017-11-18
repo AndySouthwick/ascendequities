@@ -13,8 +13,8 @@ class Founder extends Component{
         </div>
         <Container>
           <Row>
-            <Col lg={{size:4, offset:1}} className="d-flex">
-              <img src={require('./../../../images/Screen Shot 2017-11-16 at 3.47.00 PM.png')} alt=""/>
+            <Col lg={{size:4, offset:1}}>
+              <img src={require('./../../../images/Screen Shot 2017-11-16 at 3.47.00 PM.png')} alt=""className="founder-img"/>
             </Col>
             <Col lg={{size:7}}>
                 <p>
@@ -25,9 +25,27 @@ class Founder extends Component{
           <div className="d-flex justify-content-center">
             <h2>Meet The Team</h2>
           </div>
-          <Row>
-            div
-          </Row>
+          <div className="staff-images">
+            <figure>
+              <img src={require('./../../../images/staff2.png')} alt=""/>
+              <figcaption>Some text about her and <br/> <i>her name</i></figcaption>
+            </figure>
+            <figure>
+              <img src={require('./../../../images/staff3.png')} alt=""/>
+              <figcaption>Some text about her and <br/> <i>her name</i></figcaption>
+
+            </figure>
+            <figure>
+              <img src={require('./../../../images/staff4.png')} alt=""/>
+              <figcaption>Some text about her and <br/> <i>her name</i></figcaption>
+
+            </figure>
+            <figure>
+              <img src={require('./../../../images/staff5.png')} alt=""/>
+              <figcaption>Some text about her and <br/> <i>her name</i></figcaption>
+            </figure>
+          </div>
+
         </Container>
 
 

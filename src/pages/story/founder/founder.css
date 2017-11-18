@@ -3,7 +3,7 @@
     color: #565656;
     line-height: 31px;
 }
-.founder img{
+.founder-img{
     width: 302px;
     height: 419px;
 }
@@ -12,3 +12,8 @@
     margin: 1em;
 }
 
+.staff-images{
+    display: flex;
+    justify-content: space-between;
+
+}
