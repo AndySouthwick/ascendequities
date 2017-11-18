@@ -30,7 +30,7 @@ class HeroModal extends Component {
           <ModalBody>
             <div className="d-flex flex-column justify-content-center">
               <div className="video-container">
-                <iframe src="https://player.vimeo.com/video/118516418" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                <iframe src="https://player.vimeo.com/video/118516418" title="vimeovideo" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
               </div>
 
 
