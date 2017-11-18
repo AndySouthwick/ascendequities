@@ -28,21 +28,21 @@ class Founder extends Component{
           <div className="staff-images">
             <figure>
               <img src={require('./../../../images/staff2.png')} alt=""/>
-              <figcaption>Some text about her and <br/> <i>her name</i></figcaption>
+              <figcaption>position at the company <br/> <i> name</i></figcaption>
             </figure>
             <figure>
               <img src={require('./../../../images/staff3.png')} alt=""/>
-              <figcaption>Some text about her and <br/> <i>her name</i></figcaption>
+              <figcaption>position at the company <br/> <i> name</i></figcaption>
 
             </figure>
             <figure>
               <img src={require('./../../../images/staff4.png')} alt=""/>
-              <figcaption>Some text about her and <br/> <i>her name</i></figcaption>
+              <figcaption>position at the company <br/> <i> name</i></figcaption>
 
             </figure>
             <figure>
               <img src={require('./../../../images/staff5.png')} alt=""/>
-              <figcaption>Some text about her and <br/> <i>her name</i></figcaption>
+              <figcaption>position at the company <br/> <i> name</i></figcaption>
             </figure>
           </div>
 
