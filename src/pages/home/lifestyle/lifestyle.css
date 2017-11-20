@@ -1,4 +1,6 @@
-
+.formwrap{
+    max-width: 500px;
+}
 .section2 {
    text-align: center;
     background: url(../../../images/bg2.png) no-repeat center center;
@@ -23,6 +25,9 @@
     font-size: 64PX;
 }
 
+.formwrap h1{
+    margin: 0 0 1em 0;
+}
 .section2 .col{
     padding-left: 0;
     padding-right: 0;
@@ -40,7 +45,7 @@
     -moz-border-radius: 24px;
     border-radius: 24px;
     height: 3em;
-    max-width: 250px;
+    min-width: 250px;
     align-self: center;
     margin-top: 1em;
     margin-bottom: 3em;
