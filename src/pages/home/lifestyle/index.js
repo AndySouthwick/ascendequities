@@ -27,7 +27,7 @@ class Lifestyle extends Component{
                 <iframe width="100%" height="100%" title="intro-video" src="https://www.youtube.com/embed/Mq3sqHBhzwc" frameborder="0" allowfullscreen></iframe>
             </Col>
             <Col xs="12" sm="12" md={{size:12}} lg={{size: 6}}>
-              <h1>some content for this</h1>
+              <h1>Apply here</h1>
               <Button className="pill">Learn More</Button>
             </Col>
           </Row>
