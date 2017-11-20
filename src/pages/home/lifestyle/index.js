@@ -24,7 +24,7 @@ class Lifestyle extends Component{
           </Row>
           <Row>
             <Col xs={{size:12}} sm="12" md={{size:12}} lg={{size: 6, offset: 1}}  >
-              <iframe width="100%" height="100%" title="intro-video" src="https://www.youtube.com/embed/dhtRvWILEj4" frameBorder="0" allowFullScreen></iframe>
+              <iframe src="https://player.vimeo.com/video/243752334"width="100%" height="100%" frameBorder="0" webkitallowfullscreen mozallowfullscreen allowFullScreen></iframe>
             </Col>
             <Col xs="12" sm="12" md={{size:12}} lg={{size: 3}}>
 
