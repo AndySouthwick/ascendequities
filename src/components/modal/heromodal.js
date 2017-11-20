@@ -46,7 +46,7 @@ class HeroModal extends Component {
 
     return(
 
-      <div>
+      <div className="vimeoModal">
         <button  onClick={this.toggle} className=" btn btn-lg  white-ghost-button" data-toggle="modal" data-target="#exampleModal">
           Watch Now
         </button>
@@ -61,7 +61,6 @@ class HeroModal extends Component {
           </ModalBody>
           <ModalFooter>
             <Button className="pill" onClick={this.Majors}>Majors and Minors</Button>
-            <Button className="pill" onClick={this.Tnt}>TNT Futures Trading</Button>
             <Button className="pill" onClick={this.Echo}>Echo Indicator</Button>
           </ModalFooter>
         </Modal>

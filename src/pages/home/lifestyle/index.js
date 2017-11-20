@@ -66,17 +66,17 @@ class Lifestyle extends Component{
             <img src={require('../../../images/josh.png')} alt=""/>
             <p>"Learn the indicators.
               If you do, you'll never have to
-              worry about money."
+              worry about money."<br/>
               <i>-Mark</i></p>
           </div>
           <div>
             <img src={require('../../../images/allisa.png')} alt=""/>
-            <p>"This group had trust in me as a new trader to follow their system which gives me  great results."
+            <p>"This group had trust in me as a new trader to follow their system which gives me  great results."<br/>
               <i>-Allisa</i></p>
           </div>
           <div>
             <img src={require('../../../images/sean.png')} alt=""/>
-            <p>"With these elite indicators combined with the support of fellow traders, this has been a great experience"
+            <p>"With these elite indicators combined with the training support, I have awesome success"<br/>
 
               <i>-Sean</i></p>
           </div>

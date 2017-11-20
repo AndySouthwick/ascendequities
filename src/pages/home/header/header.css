@@ -58,7 +58,12 @@ margin-top: 7em;
     color: white;
     background-color: rgba(0, 0, 0, .85)!important;
 }
+.vimeoModal .modal-footer{
+    display: flex;
+    justify-content: center;
+}
 @media (max-width: 480px){
+
     .header-top{
         margin-top: 83.5px;
 

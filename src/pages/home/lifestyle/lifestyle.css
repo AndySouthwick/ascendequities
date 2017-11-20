@@ -79,3 +79,9 @@
     padding-bottom: 0;
 }
 }
+@media(max-width: 480px){
+    .btn.pill{
+        font-size: 12px;
+        min-width: 100px;
+    }
+}

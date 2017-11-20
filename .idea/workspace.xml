@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="26a9179e-ebbb-4c34-b0f4-44eee8cb8a25" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.css" afterPath="$PROJECT_DIR$/src/App.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/modal/heromodal.js" afterPath="$PROJECT_DIR$/src/components/modal/heromodal.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/home/header/header.css" afterPath="$PROJECT_DIR$/src/pages/home/header/header.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/home/lifestyle/index.js" afterPath="$PROJECT_DIR$/src/pages/home/lifestyle/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/home/lifestyle/lifestyle.css" afterPath="$PROJECT_DIR$/src/pages/home/lifestyle/lifestyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yarn.lock" afterPath="$PROJECT_DIR$/yarn.lock" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +23,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/home/lifestyle/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="26" column="128" lean-forward="false" selection-start-line="26" selection-start-column="117" selection-end-line="26" selection-end-column="128" />
+            <state relative-caret-position="483">
+              <caret line="67" column="45" lean-forward="true" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -44,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lifestyle.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lifestyle.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/home/lifestyle/lifestyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+            <state relative-caret-position="411">
+              <caret line="83" column="23" lean-forward="false" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -64,20 +62,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="heromodal.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="heromodal.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/modal/heromodal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="64" column="36" lean-forward="false" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+            <state relative-caret-position="371">
+              <caret line="48" column="32" lean-forward="false" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="32" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
-                <marker date="1511220420000" expanded="true" signature="1058:1971" ph="..." />
-                <marker date="1511220420000" expanded="true" signature="1190:1228" ph="..." />
-                <marker date="1511220420000" expanded="true" signature="1324:1958" ph="..." />
-                <marker date="1511220420000" expanded="true" signature="1428:1640" ph="..." />
-                <marker date="1511220420000" expanded="true" signature="1500:1617" ph="..." />
-                <marker date="1511220420000" expanded="true" signature="1548:1598" ph="..." />
-                <marker date="1511220420000" expanded="true" signature="1664:1941" ph="..." />
+                <marker date="1511221891000" expanded="true" signature="1081:1909" ph="..." />
+                <marker date="1511221891000" expanded="true" signature="1213:1251" ph="..." />
+                <marker date="1511221891000" expanded="true" signature="1347:1896" ph="..." />
+                <marker date="1511221891000" expanded="true" signature="1451:1663" ph="..." />
+                <marker date="1511221891000" expanded="true" signature="1523:1640" ph="..." />
+                <marker date="1511221891000" expanded="true" signature="1571:1621" ph="..." />
+                <marker date="1511221891000" expanded="true" signature="1687:1879" ph="..." />
               </folding>
             </state>
           </provider>
@@ -106,8 +104,8 @@
       <file leaf-file-name="header.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/home/header/header.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
+            <state relative-caret-position="216">
+              <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -180,11 +178,11 @@
         <option value="$PROJECT_DIR$/src/pages/story/founder/founder.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/pages/story/founder/founder.css" />
-        <option value="$PROJECT_DIR$/src/pages/home/lifestyle/lifestyle.css" />
         <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/pages/home/header/header.css" />
         <option value="$PROJECT_DIR$/src/pages/home/lifestyle/index.js" />
         <option value="$PROJECT_DIR$/src/components/modal/heromodal.js" />
+        <option value="$PROJECT_DIR$/src/pages/home/header/header.css" />
+        <option value="$PROJECT_DIR$/src/pages/home/lifestyle/lifestyle.css" />
       </list>
     </option>
   </component>
@@ -293,6 +291,14 @@
               <item name="home" type="462c0819:PsiDirectoryNode" />
               <item name="header" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="acendequities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acendequities" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+              <item name="lifestyle" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -353,7 +359,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126899000" />
+    <option name="totallyTimeSpent" value="127945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -417,7 +423,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="9" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -769,22 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/scroll.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home/lifestyle/lifestyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="41" column="20" lean-forward="false" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -801,38 +791,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/home/header/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="51" column="25" lean-forward="false" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/home/lifestyle/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="26" column="128" lean-forward="false" selection-start-line="26" selection-start-column="117" selection-end-line="26" selection-end-column="128" />
+        <state relative-caret-position="483">
+          <caret line="67" column="45" lean-forward="true" selection-start-line="67" selection-start-column="45" selection-end-line="67" selection-end-column="45" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/scroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/modal/heromodal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="64" column="36" lean-forward="false" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+        <state relative-caret-position="371">
+          <caret line="48" column="32" lean-forward="false" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="32" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-            <marker date="1511220420000" expanded="true" signature="1058:1971" ph="..." />
-            <marker date="1511220420000" expanded="true" signature="1190:1228" ph="..." />
-            <marker date="1511220420000" expanded="true" signature="1324:1958" ph="..." />
-            <marker date="1511220420000" expanded="true" signature="1428:1640" ph="..." />
-            <marker date="1511220420000" expanded="true" signature="1500:1617" ph="..." />
-            <marker date="1511220420000" expanded="true" signature="1548:1598" ph="..." />
-            <marker date="1511220420000" expanded="true" signature="1664:1941" ph="..." />
+            <marker date="1511221891000" expanded="true" signature="1081:1909" ph="..." />
+            <marker date="1511221891000" expanded="true" signature="1213:1251" ph="..." />
+            <marker date="1511221891000" expanded="true" signature="1347:1896" ph="..." />
+            <marker date="1511221891000" expanded="true" signature="1451:1663" ph="..." />
+            <marker date="1511221891000" expanded="true" signature="1523:1640" ph="..." />
+            <marker date="1511221891000" expanded="true" signature="1571:1621" ph="..." />
+            <marker date="1511221891000" expanded="true" signature="1687:1879" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/header/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/home/lifestyle/lifestyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="83" column="23" lean-forward="false" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
