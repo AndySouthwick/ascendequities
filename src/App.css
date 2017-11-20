@@ -15,3 +15,6 @@ body{
 h1{
   font-size: 64px!important;
 }
+.close{
+  color: white!important;
+}

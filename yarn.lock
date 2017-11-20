@@ -5620,6 +5620,12 @@ react-expand-text@^1.0.0:
     react "^15.6.1"
     react-dom "^15.6.1"
 
+react-external-scripts@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/react-external-scripts/-/react-external-scripts-0.1.0.tgz#646417df10bba662b317e1d444392487293a5bc8"
+  dependencies:
+    react-side-effect "^1.0.2"
+
 react-fa@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/react-fa/-/react-fa-5.0.0.tgz#d571732856c6cb2c155c46daef018ba67a75b973"
@@ -5754,7 +5760,7 @@ react-seo@^1.0.11:
     babel-preset-react "^6.24.1"
     webpack "^3.5.5"
 
-react-side-effect@^1.1.0:
+react-side-effect@^1.0.2, react-side-effect@^1.1.0:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-1.1.3.tgz#512c25abe0dec172834c4001ec5c51e04d41bc5c"
   dependencies:
