@@ -81,7 +81,7 @@ class TopNavigation extends Component {
             <Icon name="times" size="2x" className="closemenu" onClick={this.closemenu}/>
             <ul className="mobilenavslideout">
               <Link to="/"><img src={require("../../../images/sheildlogo.png")} alt=""/></Link>
-              <li><Link to="/story">Meet Our Team</Link></li><hr/>
+              <li><Link to="/story">Meet The Team</Link></li><hr/>
               <li><a href="https://secureonlinedaytradinguniversity.com/login/">Trading University</a></li><hr/>
               <li><Link to="/contact">Contact</Link></li><hr/>
               <li><Link to="/students">Our Students</Link></li><hr/>
