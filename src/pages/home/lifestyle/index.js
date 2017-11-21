@@ -28,7 +28,7 @@ class Lifestyle extends Component{
             <Col xs={{size:12}} sm="12" md={{size:12}} lg={{size: 6, offset: 1}} className="video-top-down">
 
 
-              <Video loop muted
+              <Video
                      controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}
                      onCanPlayThrough={() => {
                        // Do stuff
