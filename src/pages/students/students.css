@@ -73,4 +73,11 @@
     }
 
 }
-
+.center-spinner{
+   position: absolute;
+    top:400px;
+}
+.center-h1-loading{
+    position: absolute;
+    top:450px;
+}
