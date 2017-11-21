@@ -30,6 +30,8 @@ class Lifestyle extends Component{
 
               <Video
                      controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}
+                     poster="images/Screen Shot 2017-11-21 at 1.42.10 PM.png"
+
                      onCanPlayThrough={() => {
                        // Do stuff
                      }}>
