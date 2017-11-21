@@ -9,7 +9,11 @@
      color: white;
      font-size: 24px;
  }
-
+.modal-footer {
+    border-top: none !important;
+    justify-content: center!important;
+    padding: 0 5px 0 5px!important;
+}
 
 @media (max-width: 1025px){
     .section2{
@@ -39,12 +43,11 @@ margin-top: 7em;
 }
 
 .modal-header{
-    text-align: center;
+
+    text-align: center!important;
     border-bottom: none!important;
 }
-.modal-footer{
-    border-top:none!important;
-}
+
 .modal-body p{
     font-size: 20px;
 }
