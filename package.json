@@ -29,6 +29,7 @@
     "react-fa": "^5.0.0",
     "react-fontawesome": "^1.6.1",
     "react-helmet": "^5.2.0",
+    "react-html5video": "^2.5.1",
     "react-load-script": "^0.0.6",
     "react-read-more": "^1.0.0",
     "react-redux": "^5.0.6",

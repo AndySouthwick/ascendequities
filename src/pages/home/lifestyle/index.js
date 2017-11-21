@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 import {Row, Container, Col, FormGroup, Form} from 'reactstrap';
 import './lifestyle.css'
+import { DefaultPlayer as Video } from 'react-html5video';
+import 'react-html5video/dist/styles.css';
 class Lifestyle extends Component{
 
 
@@ -24,7 +26,15 @@ class Lifestyle extends Component{
           </Row>
           <Row>
             <Col xs={{size:12}} sm="12" md={{size:12}} lg={{size: 6, offset: 1}}  >
-              <iframe src="https://player.vimeo.com/video/243752334"width="100%" height="100%" frameBorder="0" webkitallowfullscreen mozallowfullscreen allowFullScreen></iframe>
+
+
+              <Video loop muted
+                     controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}
+                     onCanPlayThrough={() => {
+                       // Do stuff
+                     }}>
+                <source src="http://ascend.andrewsouthwick.com/videos/830921_1687.mp4" type="video/mp4" />
+              </Video>
             </Col>
             <Col xs="12" sm="12" md={{size:12}} lg={{size: 3}}>
 
@@ -33,26 +43,12 @@ class Lifestyle extends Component{
                 <input name="inf_form_xid" type="hidden" value="3c7bdb3102ef40acb0e100ee2530995a" />
                 <input name="inf_form_name" type="hidden" value="Web Form submitted" />
                 <input name="infusionsoft_version" type="hidden" value="1.68.0.154" />
-
-
-                  <input id="inf_field_FirstName" name="inf_field_FirstName" placeholder="First Name *" type="text" />
-
-
-
-
-                  <input  id="inf_field_LastName" name="inf_field_LastName" placeholder="Last Name *" type="text" />
-
-
-
-                  <input  id="inf_field_Email" name="inf_field_Email" placeholder="Email *" type="text" />
-
-
-
-                  <input  id="inf_field_Phone1" name="inf_field_Phone1" placeholder="Phone *" type="text" />
-
+                <input id="inf_field_FirstName" name="inf_field_FirstName" placeholder="First Name *" type="text" />
+                <input  id="inf_field_LastName" name="inf_field_LastName" placeholder="Last Name *" type="text" />
+                <input  id="inf_field_Email" name="inf_field_Email" placeholder="Email *" type="text" />
+                <input  id="inf_field_Phone1" name="inf_field_Phone1" placeholder="Phone *" type="text" />
                 <input name="inf_field_LeadSourceId" type="hidden" value="74" />
-
-                  <button className="btn pill" id="recaptcha_3c7bdb3102ef40acb0e100ee2530995a" type="submit">Apply Now</button>
+                <button className="btn pill" id="recaptcha_3c7bdb3102ef40acb0e100ee2530995a" type="submit">Apply Now</button>
 
               </Form>
               </Col>
