@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 import './footer.css'
 import {Icon} from 'react-fa'
+import {Link} from 'react-router-dom'
+
 
 class Footer extends Component {
   render(){
@@ -10,22 +12,22 @@ class Footer extends Component {
         <div>
 
           <h2>Solutions</h2>
-          <p><a href="">How We Fund Your Account</a></p>
-          <p><a href="">The Coaching Program</a></p>
+          <p><Link to="/story">How We Fund Your Account</Link></p>
+          <p><Link to="/story">The Coaching Program</Link></p>
         </div>
         <div>
           <h2>
            Support
           </h2>
           <p>
-            <a href="">Help Center</a>
+            <Link to="/contact">Help Center</Link>
           </p>
         </div>
         <div>
           <h2>Company</h2>
-          <p><a href="">Contact</a></p>
-          <p><a href="">About</a></p>
-          <p><a href="">Office</a></p>
+          <p><Link to="/contact">Contact</Link></p>
+          <p><Link to="/story">About</Link></p>
+          <p><Link to="/contact">Office</Link></p>
         </div>
         <div>
           <Icon name="facebook" size="4x"/>
