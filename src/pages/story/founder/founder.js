@@ -45,7 +45,7 @@ class Founder extends Component{
             </figure>
             <figure className="d-flex flex-column align-items-center">
               <img src={require('./../../../images/staff5.png')} alt=""/>
-              <figcaption>Ashley <br/> <i>-Chart Specialist</i></figcaption>
+              <figcaption>Ashley<i>-Green Chart Specialist</i></figcaption>
             </figure>
           </div>
 
