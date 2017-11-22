@@ -8,7 +8,7 @@ class Footer extends Component {
   render(){
     return(
       <div id="footer">
-        <div><img src={require("../../images/AscendEquitiesLogo.png")} alt=""/></div>
+        <div><Link to="/"><img src={require("../../images/AscendEquitiesLogo.png")} alt=""/></Link></div>
         <div>
 
           <h2>Solutions</h2>
