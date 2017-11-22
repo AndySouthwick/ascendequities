@@ -28,19 +28,34 @@ class Founder extends Component{
           <div className="d-flex justify-content-center">
             <h2>Meet The Team</h2>
           </div>
+      <div className="staff-leaders">
+        <figure className="d-flex flex-column align-items-center">
+          <img src={require('./../../../images/staff7.png')} alt=""/>
+          <figcaption>Steve <i>-Director of Marketing</i></figcaption>
+        </figure>
+        <figure className="d-flex flex-column align-items-center">
+          <img src={require('./../../../images/staff2.png')} alt=""/>
+          <figcaption>Rachel <i>-Office Manager</i></figcaption>
+        </figure>
+      </div>
+
+
           <div className="staff-images">
+
+
             <figure className="d-flex flex-column align-items-center">
-              <img src={require('./../../../images/staff2.png')} alt=""/>
-              <figcaption>Rachel <i> -Office Manager</i></figcaption>
+              <img src={require('./../../../images/staff6.png')} alt=""/>
+              <figcaption>Jen <i>-Onboarding Specialist</i></figcaption>
             </figure>
+
             <figure className="d-flex flex-column align-items-center">
               <img src={require('./../../../images/staff3.png')} alt=""/>
-              <figcaption>Alpha <i> -Onboarding Specialist</i></figcaption>
+              <figcaption>Alpha <i>-Onboarding Specialist</i></figcaption>
 
             </figure>
             <figure className="d-flex flex-column align-items-center">
               <img src={require('./../../../images/staff4.png')} alt=""/>
-              <figcaption>Afton <i> -Executive Assistant</i></figcaption>
+              <figcaption>Afton <i>-Executive Assistant</i></figcaption>
 
             </figure>
             <figure className="d-flex flex-column align-items-center">
