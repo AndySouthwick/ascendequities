@@ -69,8 +69,7 @@ class TopNavigation extends Component {
           <li><Link to="/Students">Our Students</Link></li>
         </ul>
       </div>
-
-        <div className=" mobileheader" >
+        <div className="mobileheader" >
           <img src={require("../../../images/AscendEquitiesLogo.png")} alt="" />
         </div>
         <div className="mobilenav">
