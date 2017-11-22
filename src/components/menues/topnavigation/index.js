@@ -58,12 +58,11 @@ class TopNavigation extends Component {
   }
   render(){
 
-
     return(
       <nav>
         <div className={`${this.state.menubg}  d-flex align-items-center`}>
         <ul className="d-flex  justify-content-around">
-          <li><Link to="/story">Meet Our Team</Link></li>
+          <li><Link to="/story">Meet The Team</Link></li>
           <li><Link to="https://secureonlinedaytradinguniversity.com/login/" target="_blank">Trading University</Link></li>
           <li><Link to="/"><img src={require("../../../images/AscendEquitiesLogo.png")} alt=""/></Link></li>
           <li><Link to="/contact">Contact</Link></li>
