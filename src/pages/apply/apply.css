@@ -1,0 +1,10 @@
+.apply-video-section{
+    padding-top: 7em;
+}
+.apply-text{
+    width: 900px;
+}
+.apply-content{
+display: flex;
+    justify-content: space-around;
+}

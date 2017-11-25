@@ -1,8 +1,7 @@
 import React, {Component} from 'react'
-import {Row, Container, Col, FormGroup, Form} from 'reactstrap';
+import {Row, Container, Col, Form} from 'reactstrap';
 import './lifestyle.css'
-import { DefaultPlayer as Video } from 'react-html5video';
-import 'react-html5video/dist/styles.css';
+import VideoSection from '../../../components/video-section'
 class Lifestyle extends Component{
 
 
@@ -26,17 +25,7 @@ class Lifestyle extends Component{
           </Row>
           <Row>
             <Col xs={{size:12}} sm="12" md={{size:12}} lg={{size: 6, offset: 1}} className="video-top-down">
-
-
-              <Video
-                     controls={['PlayPause', 'Seek', 'Time', 'Volume', 'Fullscreen']}
-                     poster="images/Screen Shot 2017-11-21 at 1.42.10 PM.png"
-
-                     onCanPlayThrough={() => {
-                       // Do stuff
-                     }}>
-                <source src="http://ascend.andrewsouthwick.com/videos/830921_1687.mp4" type="video/mp4" />
-              </Video>
+                  <VideoSection/>
             </Col>
             <Col xs="12" sm="12" md={{size:12}} lg={{size: 3}}>
 
