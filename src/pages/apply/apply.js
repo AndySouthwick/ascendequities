@@ -23,7 +23,7 @@ class Apply extends Component {
           </Row>
          <div className="d-flex justify-content-center text-center">
            <h1>
-             Current Opening: Trade Our Corporate Funds -{this.props.match.params.id}
+             Current Opening: Trade Our Corporate Funds - {this.props.match.params.id}
            </h1>
          </div>
 
@@ -73,10 +73,9 @@ class Apply extends Component {
             <p> But, when they trade <strong>OUR</strong> money, the pressure is off and they can trade with much the same calmness and confidence as when they were practice trading. As they trade with our money, they keep most of the profits and we keep the lesser portion.
             </p>
             <p> So, we have created a <strong>WIN-WIN-WIN</strong> scenario for everyone involved.</p>
-            Again, our traders come from virtually all backgrounds, so it really comes down to “first come — first-placed”. Time is of the essence, so fill out the application below and we will be in touch with you.
+            Again, our traders come from virtually all backgrounds, so it really comes down to “first come — first-placed”. Time is of the essence, so fill out the application and we will be in touch with you.
           </div>
           <ApplyForm/>
-
         </div>
       <Footer/>
       </div>
