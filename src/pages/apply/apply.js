@@ -23,7 +23,7 @@ class Apply extends Component {
           </Row>
          <div className="d-flex justify-content-center text-center">
            <h1>
-             Current Opening: Trade Our Corporate Funds -{this.props.match.params.id}
+             Current Opening: Trade Our Corporate Funds {this.props.match.params.id}
            </h1>
          </div>
 
