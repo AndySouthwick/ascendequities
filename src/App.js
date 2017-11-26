@@ -14,6 +14,7 @@ class App extends Component {
     return (
         <Switch>
           <Route exact path="/" component={Apply}/>
+          <Route exact path="/:id" component={Apply}/>
         </Switch>
 
     );
