@@ -2,8 +2,6 @@ import React, {Component} from 'react'
 import TopNavigation from '../../components/menues/topnavigation'
 import VideoSection from './../../components/video-section'
 import './apply.css'
-import footer from './../../components/footer/footer'
-
 import {Row, Container, Col} from 'reactstrap'
 import ApplyForm from './form'
 import Footer from '../../components/footer/footer'
