@@ -17,4 +17,11 @@ display: flex;
         display: flex;
         flex-direction: column;
     }
+    .apply-header-text{
+        width: 350px;
+
+    }
+    .apply-header-text h1{
+        font-size: 48px!important;
+    }
 }

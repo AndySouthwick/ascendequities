@@ -26,7 +26,7 @@ class Apply extends Component {
               </div>
             </Col>
           </Row>
-         <div className="d-flex justify-content-center text-center">
+         <div className="d-flex justify-content-center text-center apply-header-text">
            <h1>
              Current Opening: Trade Our Corporate Funds -{this.props.match.params.id}
            </h1>
