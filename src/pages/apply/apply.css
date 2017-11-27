@@ -8,3 +8,13 @@
 display: flex;
     justify-content: space-around;
 }
+@media(max-width: 480px){
+    .apply-text{
+        width: 300px;
+    }
+    .apply-content{
+        margin: 2em;
+        display: flex;
+        flex-direction: column;
+    }
+}
