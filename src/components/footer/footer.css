@@ -5,6 +5,7 @@
     justify-content: space-between;
     height: 350px;
     padding: 5em;
+    color: white;
 }
 @media(max-width: 990px) {
     #footer{

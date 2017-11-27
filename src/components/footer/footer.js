@@ -30,9 +30,9 @@ class Footer extends Component {
           <p><Link to="/contact">Office</Link></p>
         </div>
         <div>
-          <Icon name="facebook" size="4x"/>
-          <Icon name="twitter" size="4x"/>
-          <Icon name="youtube" size="4x"/>
+          {/*<Icon name="facebook" size="4x"/>*/}
+          {/*<Icon name="twitter" size="4x"/>*/}
+          {/*<Icon name="youtube" size="4x"/>*/}
       </div>
       </div>
     )
