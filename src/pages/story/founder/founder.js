@@ -15,7 +15,7 @@ class Founder extends Component{
 
             <div className="founder-info">
               <figure className="d-flex flex-column align-items-center">
-              <img src={require('./../../../images/staff1.png')} alt=""className="founder-img"/>
+              <img src={require('./../../../images/staff1.png')} alt=""className="founder-img" />
                 <figcaption>
                   <i>Shawn -VP of sales</i>
                 </figcaption>
