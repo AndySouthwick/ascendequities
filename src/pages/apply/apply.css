@@ -8,3 +8,20 @@
 display: flex;
     justify-content: space-around;
 }
+@media(max-width: 480px){
+    .apply-text{
+        width: 300px;
+    }
+    .apply-content{
+        margin: 2em;
+        display: flex;
+        flex-direction: column;
+    }
+    .apply-header-text{
+        width: 350px;
+
+    }
+    .apply-header-text h1{
+        font-size: 48px!important;
+    }
+}
