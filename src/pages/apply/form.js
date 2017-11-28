@@ -14,27 +14,35 @@ class ApplyForm extends Component{
       reference: '',
       experience: 'Beginner',
       availability: 'Morning',
-      success:  '',
+      alertMsg:  '',
       alertClass: '',
-      errorMsg: ''
     }
   }
 
   handleSubmit = (evt) => {
     evt.preventDefault()
     let self = this;
-    axios.post('https://andrewsouthwick.com/application_email.php?fname='
+    axios.post('https://andrewsouthwick.com/application_email_test.php?fname='
       + this.state.fname + '&lname=' + this.state.lname + '&email=' + this.state.email + '&message=' + this.state.message + '&phone=' +  this.state.phone + '&experience='
     + this.state.experience + '&availability=' + this.state.availability + '&reference='
     + this.state.reference).then(function(response){
       console.log(response.data); // ex.: { user: 'Your User'}
       console.log(response.status); // ex.: 200
-    });
+      if(response.data[1] === "showErrorMsg"){
+        this.setState({
+          alertMsg: response.data[0],
+          alertClass: 'danger'
+        })
+      }
+      else {
+        this.setState({
+          alertMsg: 'Thank you ' + this.state.fname + ', we will contact you shortly',
+          alertClass: 'success'
+        })
+      }
+    }.bind(this));
 
-    this.setState({
-      success: 'Thank you ' + this.state.fname + ', we will contact you shortly',
-      alertClass: 'success'
-    })
+
     console.log(this.state)
   }
 
@@ -69,7 +77,7 @@ class ApplyForm extends Component{
           </Input>
           <input name="inf_field_LeadSouriceId" type="hidden" value="74" />
           <button className="btn pill" id="recaptcha_3c7bdb3102ef40acb0e100ee2530995a" type="submit">Apply Now</button>
-          <Alert color={this.state.alertClass}> {this.state.success}</Alert>
+          <Alert color={this.state.alertClass}> {this.state.alertMsg}</Alert>
         </Form>
     )
   }
