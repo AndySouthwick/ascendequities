@@ -67,7 +67,7 @@ class ApplyForm extends Component{
             <option value="Afternoon">Afternoon</option>
             <option value="Evening">Evening</option>
           </Input>
-          <input name="inf_field_LeadSourceId" type="hidden" value="74" />
+          <input name="inf_field_LeadSouriceId" type="hidden" value="74" />
           <button className="btn pill" id="recaptcha_3c7bdb3102ef40acb0e100ee2530995a" type="submit">Apply Now</button>
           <Alert color={this.state.alertClass}> {this.state.success}</Alert>
         </Form>

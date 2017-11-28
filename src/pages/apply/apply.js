@@ -12,9 +12,6 @@ class Apply extends Component {
 
   render(){
 
-    if(!this.props.match.params.id){
-      return <Redirect to='/'/>;
-    }
     return(
       <div className="full-height">
         <TopNavigation/>

@@ -10,8 +10,7 @@ class Footer extends Component {
       <div id="footer">
         <div><Link to="/"><img src={require("../../images/AscendEquitiesLogo.png")} alt=""/></Link></div>
         <div>
-<<<<<<< HEAD
-=======
+
 
           <h2>Solutions</h2>
           <p><Link to="/story">How We Fund Your Account</Link></p>
@@ -35,7 +34,6 @@ class Footer extends Component {
           {/*<Icon name="facebook" size="4x"/>*/}
           {/*<Icon name="twitter" size="4x"/>*/}
           {/*<Icon name="youtube" size="4x"/>*/}
->>>>>>> master
       </div>
       </div>
     )
