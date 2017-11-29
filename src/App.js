@@ -6,6 +6,7 @@ import Contact from './pages/contact/contact'
 import Students from './pages/students'
 import OurStory from './pages/story'
 import Apply from './pages/apply/apply'
+import University from './pages/university'
 
 class App extends Component {
 
@@ -13,6 +14,7 @@ class App extends Component {
   render() {
     return (
         <Switch>
+          <Route exact path="/university" component={University}/>
           <Route exact path="/" component={Home}/>
           <Route exact path="/contact" component={Contact}/>
           <Route exact path="/Students" component={Students}/>
