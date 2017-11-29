@@ -70,7 +70,7 @@ class ApplyForm extends Component{
             <option value="Advanced">Advanced</option>
           </Input>
           <h5>Available for Training (Weekly)</h5>
-          <Input type="select"onChange={(evt) => this.setState({experience: evt.target.value})}>
+          <Input type="select"onChange={(evt) => this.setState({availability: evt.target.value})}>
             <option value="`Morning">Morning</option>
             <option value="Afternoon">Afternoon</option>
             <option value="Evening">Evening</option>
