@@ -16,6 +16,7 @@ class ApplyForm extends Component{
       availability: 'Morning',
       alertMsg:  '',
       alertClass: '',
+      cityId: ''
     }
   }
 
@@ -25,7 +26,7 @@ class ApplyForm extends Component{
     axios.post('https://andrewsouthwick.com/application_email.php?fname='
       + this.state.fname + '&lname=' + this.state.lname + '&email=' + this.state.email + '&message=' + this.state.message + '&phone=' +  this.state.phone + '&experience='
     + this.state.experience + '&availability=' + this.state.availability + '&reference='
-    + this.state.reference).then(function(response){
+    + this.state.reference + '&citystate=' + this.props.cityid).then(function(response){
       console.log(response.data); // ex.: { user: 'Your User'}
       console.log(response.status); // ex.: 200
       if(response.data[1] === "showErrorMsg"){

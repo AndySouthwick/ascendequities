@@ -77,7 +77,7 @@ class Apply extends Component {
             <p> So, we have created a <strong>WIN-WIN-WIN</strong> scenario for everyone involved.</p>
             Again, our traders come from virtually all backgrounds, so it really comes down to “first come — first-placed”. Time is of the essence, so fill out the application and we will be in touch with you.
           </div>
-          <ApplyForm/>
+          <ApplyForm cityid={this.props.match.params.id}/>
         </div>
       <Footer/>
       </div>
