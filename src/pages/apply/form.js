@@ -26,7 +26,7 @@ class ApplyForm extends Component{
     axios.post('https://andrewsouthwick.com/application_email.php?fname='
       + this.state.fname + '&lname=' + this.state.lname + '&email=' + this.state.email + '&message=' + this.state.message + '&phone=' +  this.state.phone + '&experience='
     + this.state.experience + '&availability=' + this.state.availability + '&reference='
-    + this.state.reference + '&citystate=' + this.props.cityid).then(function(response){
+    + this.state.reference + '&citystate=' + this.state.cityId).then(function(response){
       console.log(response.data); // ex.: { user: 'Your User'}
       console.log(response.status); // ex.: 200
       if(response.data[1] === "showErrorMsg"){
@@ -58,14 +58,14 @@ class ApplyForm extends Component{
           <input name="inf_form_xid" type="hidden" value="3c7bdb3102ef40acb0e100ee2530995a" />
           <input name="inf_form_name" type="hidden" value="Web Form submitted" />
           <input name="infusionsoft_version" type="hidden" value="1.68.0.154" />
-          <input id="inf_field_FirstName" name="inf_field_FirstName" placeholder="First Name *" type="text" onChange={(evt) => this.setState({fname: evt.target.value})} required/>
+          <input id="inf_field_FirstName" name="inf_field_FirstName" placeholder="First Name *" type="text" onChange={(evt) => this.setState({fname: evt.target.value, cityId: this.props.cityid})} required/>
           <input  id="inf_field_LastName" name="inf_field_LastName" placeholder="Last Name *" type="text" onChange={(evt) => this.setState({lname: evt.target.value})} required/>
           <input  id="inf_field_Email" name="inf_field_Email" placeholder="Email *" type="text" onChange={(evt) => this.setState({email: evt.target.value})} required/>
           <input  id="inf_field_Phone1" name="inf_field_Phone1" placeholder="Phone *" type="text" onChange={(evt) => this.setState({phone: evt.target.value})} required/>
           <i>If you were referred please leave the name of your referrer</i>
           <input className="infusion-field-input-container" id="inf_custom_ReferralName" name="inf_custom_ReferralName" placeholder="Referral Name" type="text"  onChange={(evt) => this.setState({reference: evt.target.value})}/>
           <h5>Level of Experience</h5>
-          <Input type="select"onChange={(evt) => this.setState({experience: evt.target.value})}>
+          <Input type="select"onChange={(evt) => this.setState({experience: evt.target.value })}>
             <option value="`Beginner">Beginner</option>
             <option value="Intermediate">Intermediate</option>
             <option value="Advanced">Advanced</option>
