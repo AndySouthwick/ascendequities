@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26a9179e-ebbb-4c34-b0f4-44eee8cb8a25" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/components/menues/topnavigation/index.js" afterPath="$PROJECT_DIR$/src/components/menues/topnavigation/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/components/menues/topnavigation/topnavigation.css" afterPath="$PROJECT_DIR$/src/components/menues/topnavigation/topnavigation.css" />
-      <change beforePath="$PROJECT_DIR$/src/components/modal/heromodal.js" afterPath="$PROJECT_DIR$/src/components/modal/heromodal.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -82,17 +79,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/menues/topnavigation/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="69" column="149" lean-forward="false" selection-start-line="69" selection-start-column="149" selection-end-line="69" selection-end-column="149" />
+            <state relative-caret-position="391">
+              <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topnavigation.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="topnavigation.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/menues/topnavigation/topnavigation.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="386">
@@ -199,8 +196,8 @@
         <option value="$PROJECT_DIR$/src/components/video/video-section.js" />
         <option value="$PROJECT_DIR$/src/components/video/video.css" />
         <option value="$PROJECT_DIR$/src/components/modal/heromodal.js" />
-        <option value="$PROJECT_DIR$/src/components/menues/topnavigation/index.js" />
         <option value="$PROJECT_DIR$/src/components/menues/topnavigation/topnavigation.css" />
+        <option value="$PROJECT_DIR$/src/components/menues/topnavigation/index.js" />
       </list>
     </option>
   </component>
@@ -367,12 +364,12 @@
       <workItem from="1513912866357" duration="13000" />
       <workItem from="1513912912386" duration="659000" />
       <workItem from="1515293904306" duration="792000" />
-      <workItem from="1515881096546" duration="4510000" />
+      <workItem from="1515881096546" duration="4667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167123000" />
+    <option name="totallyTimeSpent" value="167280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="93" width="1449" height="955" extended-state="0" />
@@ -803,14 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/menues/topnavigation/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="69" column="149" lean-forward="false" selection-start-line="69" selection-start-column="149" selection-end-line="69" selection-end-column="149" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/menues/topnavigation/topnavigation.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="386">
@@ -818,6 +807,14 @@
           <folding>
             <marker date="1515887250000" expanded="true" signature="1135:1261" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/menues/topnavigation/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

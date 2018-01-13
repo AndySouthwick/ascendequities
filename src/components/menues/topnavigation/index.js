@@ -84,7 +84,7 @@ class TopNavigation extends Component {
               <li><a href="https://secureonlinedaytradinguniversity.com/login/">Trading University</a></li><hr/>
               <li><Link to="/contact">Contact</Link></li><hr/>
               <li><Link to="/students">Our Students</Link></li><hr/>
-              <li><a className="btn btn-primary">Join Now</a></li>
+              <li><a className="btn pill" href="https://secureonlinedaytradinguniversity.com/membership-account/membership-levels/?pa=7F323B0C4C&subid=49">Join Now</a></li>
             </ul>
           </div>
 
