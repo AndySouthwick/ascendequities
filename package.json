@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "animate.css": "^3.5.2",
-    "apollo-cache-inmemory": "^1.1.0",
+    "apollo-cache-inmemory": "^1.1.1",
     "apollo-client": "^2.0.2",
     "apollo-client-preset": "^1.0.2",
     "apollo-link-http": "^1.1.0",
@@ -20,7 +20,7 @@
     "react": "^15.6.1",
     "react-addons-css-transition-group": "^15.6.0",
     "react-addons-transition-group": "^15.6.0",
-    "react-apollo": "^2.0.0",
+    "react-apollo": "^2.0.1",
     "react-doc-meta": "^0.2.0",
     "react-document-meta": "^2.1.2",
     "react-dom": "^15.6.1",

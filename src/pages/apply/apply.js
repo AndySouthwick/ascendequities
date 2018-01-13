@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import TopNavigation from '../../components/menues/topnavigation'
-import VideoSection from './../../components/video-section'
+import VideoSection from './../../components/video/video-section'
 import './apply.css'
 import { Redirect } from 'react-router'
 

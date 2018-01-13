@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {Row, Container, Col, Form} from 'reactstrap';
 import './lifestyle.css'
-import VideoSection from '../../../components/video-section'
+import VideoSection from '../../../components/video/video-section'
 class Lifestyle extends Component{
 
 
