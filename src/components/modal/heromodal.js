@@ -23,26 +23,15 @@ class HeroModal extends Component {
 
   Majors = () => {
     this.setState({
-      loadedvideo: '118516418',
-      videotitle: 'Majors and Minors'
+      loadedvideo: '250989833',
+      videotitle: 'Majors and Minors Making Money'
     })
   }
-  Tnt = () => {
-    this.setState({
-      loadedvideo: '118513863',
-      videotitle: 'TNT Futures Trading'
-    })
-  }
-  Echo = () => {
-    this.setState({
-      loadedvideo: '117880803',
-      videotitle: 'Echo Indicator'
-    })
-  }
+
 
   render(){
 
-    const vimeoVideo = <iframe src={`https://player.vimeo.com/video/${this.state.loadedvideo}`} title="vimeovideo" width="100%" height="100%" frameBorder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    const vimeoVideo = <iframe src={`https://player.vimeo.com/video/250989833`} title="vimeovideo" width="100%" height="100%" frameBorder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
     return(
 
@@ -59,10 +48,6 @@ class HeroModal extends Component {
               </div>
             </div>
           </ModalBody>
-          <ModalFooter>
-            <Button className="pill" onClick={this.Majors}>Majors and Minors</Button>
-            <Button className="pill" onClick={this.Echo}>Echo Indicator</Button>
-          </ModalFooter>
         </Modal>
       </div>
 
