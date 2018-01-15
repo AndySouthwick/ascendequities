@@ -6,6 +6,8 @@ import Contact from './pages/contact/contact'
 import Students from './pages/students'
 import OurStory from './pages/story'
 import Apply from './pages/apply/apply'
+import University from './pages/university'
+import Test from './test'
 
 class App extends Component {
 

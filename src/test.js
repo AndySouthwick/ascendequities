@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {graphql}  from 'react-apollo'
+import { graphql }  from 'react-apollo'
 import gql from 'graphql-tag'
 import Form from './form'
 
@@ -36,6 +36,7 @@ if(!this.props.data.allStudentsblurbses){
           <div key={blurbs.id}>
           {blurbs.name}
           {blurbs.blurb}
+            <img src={blurbs.img} alt=""/>
         </div>)}
 
       </div>
@@ -49,6 +50,7 @@ query {
     id
     name
     blurb
+     img
   }
 }
 `
