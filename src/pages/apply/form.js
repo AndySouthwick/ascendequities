@@ -23,7 +23,7 @@ class ApplyForm extends Component{
   handleSubmit = (evt) => {
     evt.preventDefault()
     let self = this;
-    axios.post('https://andrewsouthwick.com/application_email.php?fname='
+    axios.post('http://107.181.170.70/index.php?fname='
       + this.state.fname + '&lname=' + this.state.lname + '&email=' + this.state.email + '&message=' + this.state.message + '&phone=' +  this.state.phone + '&experience='
     + this.state.experience + '&availability=' + this.state.availability + '&reference='
     + this.state.reference + '&citystate=' + this.state.cityId).then(function(response){
