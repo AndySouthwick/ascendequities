@@ -64,8 +64,8 @@
       <file leaf-file-name="heromodal.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/modal/heromodal.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state relative-caret-position="383">
+              <caret line="33" column="77" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -370,18 +370,18 @@
       <workItem from="1528665335217" duration="2980000" />
       <workItem from="1528727286360" duration="3733000" />
       <workItem from="1528732602238" duration="583000" />
-      <workItem from="1529338455213" duration="1019000" />
+      <workItem from="1529338455213" duration="1319000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211739000" />
+    <option name="totallyTimeSpent" value="212039000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4106" y="211" width="1325" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24309815" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24309815" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.41641104" side_tool="true" visible="true" weight="0.32991013" />
@@ -389,7 +389,7 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.58358896" visible="true" weight="0.32991013" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.58358896" visible="true" weight="0.32991013" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TypeScript" order="7" />
@@ -808,8 +808,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/modal/heromodal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="383">
+          <caret line="33" column="77" selection-start-line="33" selection-start-column="68" selection-end-line="33" selection-end-column="77" />
         </state>
       </provider>
     </entry>

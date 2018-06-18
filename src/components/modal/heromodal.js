@@ -31,7 +31,7 @@ class HeroModal extends Component {
 
   render(){
 
-    const vimeoVideo = <iframe src={`https://player.vimeo.com/video/274199174`} title="vimeovideo" width="100%" height="100%" frameBorder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    const vimeoVideo = <iframe src={`https://player.vimeo.com/video/250989833`} title="vimeovideo" width="100%" height="100%" frameBorder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
     return(
 
