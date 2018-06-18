@@ -18,3 +18,12 @@ h1{
 .close{
   color: white!important;
 }
+.section-pip{
+  display: flex;
+}
+.section-pip h2{
+  width: 100px;
+}
+.display-none{
+  display: none;
+}

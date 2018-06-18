@@ -62,16 +62,16 @@ class TopNavigation extends Component {
       <nav>
         <div className={`${this.state.menubg}  d-flex align-items-center`}>
         <ul className="d-flex  justify-content-around">
-          <li><Link to="/"><img src={require("../../../images/AscendEquitiesLogo.png")} alt=""/></Link></li>
+          <li><Link to="/"><img src='brain.svg' alt=""  width="200"/></Link></li>
           <li><Link to="/story">Meet The Team</Link></li>
           <li><Link to="https://secureonlinedaytradinguniversity.com/login/" target="_blank">Trading University</Link></li>
           <li><Link to="/contact">Contact</Link></li>
           <li><Link to="/Students">Our Students</Link></li>
-          <li><a className="btn pill" href="https://secureonlinedaytradinguniversity.com/membership-account/membership-levels/?pa=7F323B0C4C&subid=49">Join Now</a></li>
+          <li><a className="btn pill" href="https://secureonlinedaytradinguniversity.com/membership-account/membership-levels/?pa=CCECBE9BD3&subid=59">Join Now</a></li>
         </ul>
       </div>
         <div className="mobileheader" >
-          <img src={require("../../../images/AscendEquitiesLogo.png")} alt="" />
+          <img src="brain.svg" alt="" width="100"/>
         </div>
         <div className="mobilenav">
 
@@ -79,12 +79,12 @@ class TopNavigation extends Component {
           <div className={this.state.mobilenavshowhide}>
             <Icon name="times" size="2x" className="closemenu" onClick={this.closemenu}/>
             <ul className="mobilenavslideout">
-              <Link to="/"><img src={require("../../../images/sheildlogo.png")} alt=""/></Link>
+              <Link to="/"><img src="brain.svg" alt="" width="100"/></Link>
               <li><Link to="/story">Meet The Team</Link></li><hr/>
               <li><a href="https://secureonlinedaytradinguniversity.com/login/">Trading University</a></li><hr/>
               <li><Link to="/contact">Contact</Link></li><hr/>
               <li><Link to="/students">Our Students</Link></li><hr/>
-              <li><a className="btn pill" href="https://secureonlinedaytradinguniversity.com/membership-account/membership-levels/?pa=7F323B0C4C&subid=49">Join Now</a></li>
+              <li><a className="btn pill" href="https://secureonlinedaytradinguniversity.com/membership-account/membership-levels/?pa=CCECBE9BD3&subid=59">Join Now</a></li>
             </ul>
           </div>
 

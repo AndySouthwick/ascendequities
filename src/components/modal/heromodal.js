@@ -8,7 +8,7 @@ class HeroModal extends Component {
     this.state = {
       modal: false,
       loadedvideo: '118516418',
-      videotitle: 'Majors and Minors'
+      videotitle: 'Trade Our Corporate Funds'
     };
 
     this.toggle = this.toggle.bind(this);
@@ -24,14 +24,14 @@ class HeroModal extends Component {
   Majors = () => {
     this.setState({
       loadedvideo: '250989833',
-      videotitle: 'Majors and Minors Making Money'
+      videotitle: 'Trade Our Corporate Funds'
     })
   }
 
 
   render(){
 
-    const vimeoVideo = <iframe src={`https://player.vimeo.com/video/250989833`} title="vimeovideo" width="100%" height="100%" frameBorder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    const vimeoVideo = <iframe src={`https://player.vimeo.com/video/274199174`} title="vimeovideo" width="100%" height="100%" frameBorder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
     return(
 

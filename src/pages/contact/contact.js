@@ -96,7 +96,7 @@ class Contact extends Component {
                 In Person: 2889 Ashton Blvd Ste #150 Lehi, Utah 84043
               </p>
               <p><h3>By Phone:</h3>
-                (775)291-3589</p>
+                (800)-301-7482</p>
               <p><h3>Hours:</h3>
                 Monday through Friday, 9:00 am – 5:00 pm MST</p>
             </Col>

@@ -8,6 +8,7 @@ import OurStory from './pages/story'
 import Apply from './pages/apply/apply'
 import University from './pages/university'
 import Test from './test'
+import Pip from './pages/success/pip'
 
 class App extends Component {
 
@@ -22,6 +23,7 @@ class App extends Component {
           <Route exact path="/story" component={OurStory}/>
           <Route exact path="/apply-now/:id" component={Apply}/>
           <Route exact path="/test" component={Test}/>
+          <Route exact path="/pip" component={Pip}/>
         </Switch>
 
     );
