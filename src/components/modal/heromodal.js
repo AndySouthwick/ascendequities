@@ -7,8 +7,8 @@ class HeroModal extends Component {
     super(props);
     this.state = {
       modal: false,
-      loadedvideo: '118516418',
-      videotitle: 'Trade Our Corporate Funds'
+      loadedvideo: '250989833',
+      videotitle: 'Majors and Minors'
     };
 
     this.toggle = this.toggle.bind(this);
