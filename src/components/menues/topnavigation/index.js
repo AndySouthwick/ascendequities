@@ -67,7 +67,7 @@ class TopNavigation extends Component {
           <li><Link to="https://secureonlinedaytradinguniversity.com/login/" target="_blank">Trading University</Link></li>
           <li><Link to="/contact">Contact</Link></li>
           <li><Link to="/Students">Our Students</Link></li>
-          <li><a className="btn pill" href="https://secureonlinedaytradinguniversity.com/membership-account/membership-levels/?pa=CCECBE9BD3&subid=59">Join Now</a></li>
+          <li><a className="btn pill" href="https://gotraderlite.com?code=TECNEL">Join Now</a></li>
         </ul>
       </div>
         <div className="mobileheader" >
@@ -84,7 +84,7 @@ class TopNavigation extends Component {
               <li><a href="https://secureonlinedaytradinguniversity.com/login/">Trading University</a></li><hr/>
               <li><Link to="/contact">Contact</Link></li><hr/>
               <li><Link to="/students">Our Students</Link></li><hr/>
-              <li><a className="btn pill" href="https://secureonlinedaytradinguniversity.com/membership-account/membership-levels/?pa=CCECBE9BD3&subid=59">Join Now</a></li>
+              <li><a className="btn pill" href="https://gotraderlite.com?code=TECNEL">Join Now</a></li>
             </ul>
           </div>
 
